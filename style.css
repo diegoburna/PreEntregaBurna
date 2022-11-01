@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Características generales */
+@font-face {
+  font-family: 'Arastin';
+  src: url('fonts/ArastinStd.ttf');
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+.activado {
+  background-color: rgba(0,0,0, 0.5);
+  border-radius: 3px;
+  text-align: center;
+}
+
+.activado:hover {
+  transform: none;
+}
+
+.centro {
+  text-align: center;
+}
+/* Fin Características generales */
+
+/* BIENVENIDA */
+
+.bienvenida {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  margin-left: 40%;
+}
+
+.bienvenida:hover {
+  transform: scale(2);
+  transition-duration: 2s;
+}
+
+@media only screen and (max-width: 980px) {
+  .bienvenida {
+    margin-top: 150px;
+    margin-left: 30%;
+  }
+}
+
+/* FIN DE BIENVENIDA*/
+
+/* HEADER */
+a {
+  font-family: 'Arastin';
+}
+
+a:hover {
+  transform: scale(150%);
+  transition-duration: 2s;
+}
+
+.logomenu {
+  position: relative;
+  margin-top: 50%;
+}
+
+/* Header colapsado */
+
+.menucolapsado {
+  display: flex;
+  justify-content: center;
+}
+
+/* FIN DE HEADER*/
+
+
+
+/*CONTACTO*/
+
+.formulario {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 500px;
+  margin-bottom: 2%;
+}
+
+.comentario {
+  height: 80px;
+}
+
+.mapa {
+  border: 1px ridge grey;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  width: 600px;
+  height: 300px;
+}
+
+/*FIN DE CONTACTO*/
+
+/* Secciones */
+
+body {
+  background-image: url('images/figurin-vestido1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Fin Secciones */
+
+/* Footer Fijo */
+
+.letrablanca {
+  font-family: 'Arastin';
+  color: black;
+}
+
+.letrablanca:hover {
+  color: white;
+}
+
+/* Fin Footer Fijo*/
