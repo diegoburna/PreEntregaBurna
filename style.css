@@ -81,30 +81,50 @@ a:hover {
 
 /*CONTACTO*/
 
-.formulario {
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  display: flex;
-  flex-direction: column;
-}
-
-input {
+form {
   width: 500px;
-  margin-bottom: 2%;
+  margin: auto;
+  background: rgba(0,0,0, 0.5);
+  padding: 20px 40px;
+  box-sizing: border-box;
+  margin-top: 40px;
+  border-radius: 5px;
 }
 
-.comentario {
-  height: 80px;
+h2 {
+  color: white;
+  font-family: 'Arastin';
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
 }
 
-.mapa {
-  border: 1px ridge grey;
-  position: absolute;
-  left: 50%;
-  top: 40%;
-  width: 600px;
-  height: 300px;
+input, textarea {
+  width: 100%;
+  margin-bottom: 100px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 15px;
+  border: none;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+#boton {
+  background: black;
+  color: white;
+  font-family: 'Arastin';
+  padding: 20px;
+}
+
+#boton:hover {
+  cursor: pointer;
+  background-color: rgba(0,0,0, 0.5);
 }
 
 /*FIN DE CONTACTO*/
@@ -114,7 +134,8 @@ input {
 body {
   background-image: url('images/figurin-vestido1.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100vw;
+  margin: 0;
 }
 
 /* Fin Secciones */
