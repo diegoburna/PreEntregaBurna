@@ -77,10 +77,10 @@ a:hover {
 
 /* FIN DE HEADER*/
 
-/*INDEX*/
+/*INICIO*/
 
 .primertexto {
-  background-color: whitesmoke;
+  background-color: white;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
@@ -91,15 +91,22 @@ a:hover {
 
 h3 {
   font-family: 'Arastin';
-  color: whitesmoke;
+  color: white;
 }
 
+@media (max-width:480px) {
+  .primertexto {
+    margin: 10px;
+    padding: 15px;
+    font-size: medium;
+  }
+}
 
-/*FIN DE INDEX*/
+/*FIN DE INICIO*/
 
 /*ALTA COSTURA*/
 .coco {
-  background-color: whitesmoke;
+  background-color: white;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
   font-size: 50px;
@@ -118,9 +125,40 @@ h3 {
 
 h3 {
   font-family: 'Arastin';
-  color: whitesmoke;
+  color: white;
+}
+
+.arastinnegra {
+  font-family: 'Arastin';
+  color: black;
+}
+
+@media (max-width:480px) {
+  .segundotexto {
+    width: 90%;
+  }
+}
+.fotos:hover {
+  transform: scale(150%);
+  transition: 3s;
+  border-radius: 50px;
 }
 /*FIN DE ALTA COSTURA*/
+
+/*EXPERIENCIAS*/
+@media only screen and (min-width: 481px) and (max-width: 980px) {
+  .union {
+    width: 80%;
+  }
+}
+/*FIN DE EXPERIENCIAS*/
+
+/*PROFILE*/
+.letranegra {
+  color: black;
+  font-size: medium;
+}
+/*FIN DE PROFILE*/
 
 /*CONTACTO*/
 form {
@@ -173,22 +211,22 @@ textarea {
 
 @media (max-width:480px) {
   form{
-    width: 100%;
+    width: 90%;
   }
 }
 
 /*FIN DE CONTACTO*/
 
-/* Secciones */
+/*FONDO*/
 
 body {
-  background-image: url('images/figurin-vestido.jpeg');
+  background-image: url('images/fondo.png');
   background-size: 100vw 100vh;
   background-attachment: fixed;
   margin: 0;
 }
 
-/* Fin Secciones */
+/*FIN DE FONDO*/
 
 /* Footer Fijo */
 
