@@ -77,10 +77,52 @@ a:hover {
 
 /* FIN DE HEADER*/
 
+/*INDEX*/
 
+.primertexto {
+  background-color: whitesmoke;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 50px 100px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+h3 {
+  font-family: 'Arastin';
+  color: whitesmoke;
+}
+
+
+/*FIN DE INDEX*/
+
+/*ALTA COSTURA*/
+.coco {
+  background-color: whitesmoke;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  padding: 20px 20px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+.segundotexto {
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding: 20px 10px;
+  margin: 20px;
+}
+
+h3 {
+  font-family: 'Arastin';
+  color: whitesmoke;
+}
+/*FIN DE ALTA COSTURA*/
 
 /*CONTACTO*/
-
 form {
   width: 500px;
   margin: auto;
