@@ -1,0 +1,40 @@
+/*ALTA COSTURA*/
+.coco {
+    background-color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding: 20px 20px;
+    margin: 30px;
+    border-radius: 10px;
+  }
+  
+  .segundotexto {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 20px 10px;
+    margin: 20px;
+  }
+  
+  h3 {
+    font-family: 'Arastin';
+    color: white;
+  }
+  
+  .arastinnegra {
+    font-family: 'Arastin';
+    color: black;
+  }
+  
+  @media (max-width:480px) {
+    .segundotexto {
+      width: 90%;
+    }
+  }
+  .fotos:hover {
+    transform: scale(150%);
+    transition: 3s;
+    border-radius: 50px;
+  }
+  /*FIN DE ALTA COSTURA*/

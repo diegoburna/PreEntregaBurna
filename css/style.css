@@ -1,0 +1,230 @@
+/* CARACTERISTICAS GENERALES */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Arastin";
+  src: url("../fonts/ArastinStd.ttf");
+}
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+.activado {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+  text-align: center;
+}
+
+.activado:hover {
+  transform: none;
+}
+
+.centro {
+  text-align: center;
+}
+
+/*FONDO*/
+body {
+  background-image: url("../images/fondo.png");
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+/*FIN DE FONDO*/
+/* FIN DE GENERALES */
+/* HEADER */
+a {
+  font-family: "Arastin";
+}
+
+a:hover {
+  transform: scale(150%);
+  transition-duration: 2s;
+}
+
+.logomenu {
+  position: relative;
+  margin-top: 50%;
+}
+
+/* Header colapsado */
+.menucolapsado {
+  display: flex;
+  justify-content: center;
+}
+
+/* FIN DE HEADER*/
+/* Footer Fijo */
+.letrablanca {
+  font-family: "Arastin";
+  color: white;
+}
+
+.letrablanca:hover {
+  color: white;
+}
+
+.iconos:hover {
+  transform: scale(2);
+  transition: 2s;
+}
+
+/* Fin Footer Fijo*/
+/* BIENVENIDA */
+.bienvenida {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  margin-left: 40%;
+}
+
+.bienvenida:hover {
+  transform: scale(2);
+  transition-duration: 2s;
+}
+
+@media only screen and (max-width: 980px) {
+  .bienvenida {
+    margin-top: 150px;
+    margin-left: 30%;
+  }
+}
+/* FIN DE BIENVENIDA*/
+/*INICIO*/
+.primertexto {
+  background-color: white;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  padding: 50px 100px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+h3 {
+  font-family: "Arastin";
+  color: white;
+}
+
+@media (max-width: 480px) {
+  .primertexto {
+    margin: 10px;
+    padding: 15px;
+    font-size: medium;
+  }
+}
+/*FIN DE INICIO*/
+/*ALTA COSTURA*/
+.coco {
+  background-color: white;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  padding: 20px 20px;
+  margin: 30px;
+  border-radius: 10px;
+}
+
+.segundotexto {
+  text-align: justify;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  padding: 20px 10px;
+  margin: 20px;
+}
+
+h3 {
+  font-family: "Arastin";
+  color: white;
+}
+
+.arastinnegra {
+  font-family: "Arastin";
+  color: black;
+}
+
+@media (max-width: 480px) {
+  .segundotexto {
+    width: 90%;
+  }
+}
+.fotos:hover {
+  transform: scale(150%);
+  transition: 3s;
+  border-radius: 50px;
+}
+
+/*FIN DE ALTA COSTURA*/
+/*EXPERIENCIAS*/
+/*FIN DE EXPERIENCIAS*/
+/*PROFILE*/
+.letranegra {
+  color: black;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/*FIN DE PROFILE*/
+/*CONTACTO*/
+form {
+  width: 500px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 10px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: white;
+  font-family: "Arastin";
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 7px;
+  box-sizing: border-box;
+  font-size: 15px;
+  border: none;
+  border-radius: 2px;
+}
+
+textarea {
+  min-height: 75px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+#boton {
+  background: black;
+  color: white;
+  font-family: "Arastin";
+  padding: 10px;
+}
+
+#boton:hover {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 480px) {
+  form {
+    width: 90%;
+  }
+}
+/*FIN DE CONTACTO*/
+
+/*# sourceMappingURL=style.css.map */

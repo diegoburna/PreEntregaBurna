@@ -1,0 +1,56 @@
+/*CONTACTO*/
+form {
+    width: 500px;
+    margin: auto;
+    background: rgba(0,0,0, 0.5);
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: white;
+    font-family: 'Arastin';
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 15px;
+    border: none;
+    border-radius: 2px;
+  }
+  
+  textarea {
+    min-height: 75px;
+    max-height: 200px;
+    max-width: 100%;
+  }
+  
+  #boton {
+    background: black;
+    color: white;
+    font-family: 'Arastin';
+    padding: 10px;
+  }
+  
+  #boton:hover {
+    cursor: pointer;
+    background-color: rgba(0,0,0, 0.5);
+  }
+  
+  @media (max-width:480px) {
+    form{
+      width: 90%;
+    }
+  }
+  
+  /*FIN DE CONTACTO*/

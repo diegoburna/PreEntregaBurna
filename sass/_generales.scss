@@ -1,0 +1,43 @@
+/* CARACTERISTICAS GENERALES */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Arastin';
+  src: url('../fonts/ArastinStd.ttf');
+}
+  
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+  
+.activado {
+  background-color: rgba(0,0,0, 0.5);
+  border-radius: 3px;
+  text-align: center;
+}
+  
+.activado:hover {
+  transform: none;
+}
+  
+.centro {
+  text-align: center;
+}
+
+ /*FONDO*/
+  
+ body {
+  background-image: url('../images/fondo.png');
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+/*FIN DE FONDO*/
+
+/* FIN DE GENERALES */

@@ -1,0 +1,23 @@
+/* HEADER */
+a {
+    font-family: 'Arastin';
+  }
+  
+  a:hover {
+    transform: scale(150%);
+    transition-duration: 2s;
+  }
+  
+  .logomenu {
+    position: relative;
+    margin-top: 50%;
+  }
+  
+  /* Header colapsado */
+  
+  .menucolapsado {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* FIN DE HEADER*/

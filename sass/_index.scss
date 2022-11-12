@@ -1,0 +1,51 @@
+/* BIENVENIDA */
+  
+.bienvenida {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 40%;
+  }
+  
+  .bienvenida:hover {
+    transform: scale(2);
+    transition-duration: 2s;
+  }
+  
+  @media only screen and (max-width: 980px) {
+    .bienvenida {
+      margin-top: 150px;
+      margin-left: 30%;
+    }
+  }
+  
+  /* FIN DE BIENVENIDA*/
+  
+  
+  
+  /*INICIO*/
+  
+  .primertexto {
+    background-color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 50px 100px;
+    margin: 30px;
+    border-radius: 10px;
+  }
+  
+  h3 {
+    font-family: 'Arastin';
+    color: white;
+  }
+  
+  @media (max-width:480px) {
+    .primertexto {
+      margin: 10px;
+      padding: 15px;
+      font-size: medium;
+    }
+  }
+  
+  /*FIN DE INICIO*/
