@@ -1,3 +1,5 @@
+@import '../sass/base/variables';
+
 /* BIENVENIDA */
   
 .bienvenida {
@@ -26,7 +28,7 @@
   /*INICIO*/
   
   .primertexto {
-    background-color: white;
+    background-color: $bgcolor;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;

@@ -1,8 +1,12 @@
+/* SCSS GENERAL */
 @import 'generales';
 @import 'header';
 @import 'footer';
+/* SCSS PAGES */
 @import 'index';
 @import 'altacostura';
 @import 'experiencias';
 @import 'profile';
 @import 'contacto';
+/*SCSS VARIABLES */
+@import '../sass/base/variables';
