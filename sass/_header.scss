@@ -1,7 +1,7 @@
 /* HEADER */
-a {
-    font-family: 'Arastin';
-  }
+// a {
+//     font-family: 'Arastin';
+//   }
   
   a:hover {
     transform: scale(150%);
@@ -21,3 +21,24 @@ a {
   }
   
   /* FIN DE HEADER*/
+
+  /* Nesting */
+  body {
+    background-image: url('../images/fondo.png');
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    header {
+      nav {
+        div {
+          div {
+            div {
+              a {
+                font-family: 'Arastin';
+              }
+            }
+          }
+        }
+      }
+    }
+  }

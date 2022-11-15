@@ -39,10 +39,6 @@ body {
 /*FIN DE FONDO*/
 /* FIN DE GENERALES */
 /* HEADER */
-a {
-  font-family: "Arastin";
-}
-
 a:hover {
   transform: scale(150%);
   transition-duration: 2s;
@@ -60,6 +56,17 @@ a:hover {
 }
 
 /* FIN DE HEADER*/
+/* Nesting */
+body {
+  background-image: url("../images/fondo.png");
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+}
+body header nav div div div a {
+  font-family: "Arastin";
+}
+
 /* Footer Fijo */
 .letrablanca {
   font-family: "Arastin";
