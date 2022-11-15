@@ -3,10 +3,10 @@
 //     font-family: 'Arastin';
 //   }
   
-  a:hover {
-    transform: scale(150%);
-    transition-duration: 2s;
-  }
+  // a:hover {
+  //   transform: scale(150%);
+  //   transition-duration: 2s;
+  // }
   
   .logomenu {
     position: relative;
@@ -23,11 +23,6 @@
   /* FIN DE HEADER*/
 
   /* Nesting */
-  body {
-    background-image: url('../images/fondo.png');
-    background-size: 100vw 100vh;
-    background-attachment: fixed;
-    margin: 0;
     header {
       nav {
         div {
@@ -35,10 +30,13 @@
             div {
               a {
                 font-family: 'Arastin';
+                &:hover {
+                  transform: scale(150%);
+                  transition-duration: 2s;
+                }
               }
             }
           }
         }
       }
     }
-  }
