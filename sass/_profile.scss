@@ -1,6 +1,8 @@
+@import '../sass/base/variables';
+
 /*PROFILE*/
 .letranegra {
-    color: black;
+    color: $pcolor;
     font-size: large;
     font-family: 'Times New Roman', Times, serif;
   }

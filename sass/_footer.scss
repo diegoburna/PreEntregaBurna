@@ -1,12 +1,14 @@
+@import '../sass/base/variables';
+
 /* Footer Fijo */
   
 .letrablanca {
     font-family: 'Arastin';
-    color: white;
+    color: $hcolor;
   }
   
   .letrablanca:hover {
-    color: white;
+    color: $hcolor;
   }
   
   .iconos:hover {

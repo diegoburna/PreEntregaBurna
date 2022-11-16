@@ -1,3 +1,5 @@
+@import '../sass/base/variables';
+
 /*CONTACTO*/
 form {
     width: 500px;
@@ -11,7 +13,7 @@ form {
   }
   
   h1 {
-    color: white;
+    color: $hcolor;
     font-family: 'Arastin';
     text-align: center;
     margin: 0;
@@ -36,8 +38,8 @@ form {
   }
   
   #boton {
-    background: black;
-    color: white;
+    background: $pcolor;
+    color: $hcolor;
     font-family: 'Arastin';
     padding: 10px;
   }

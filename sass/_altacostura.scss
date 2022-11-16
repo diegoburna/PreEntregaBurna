@@ -20,12 +20,12 @@
   
   h2 {
     font-family: 'Arastin';
-    color: white;
+    color: $hcolor;
   }
   
   .arastinnegra {
     font-family: 'Arastin';
-    color: black;
+    color: $pcolor;
   }
   
   @media (max-width:480px) {
