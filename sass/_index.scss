@@ -27,15 +27,15 @@
   
   /*INICIO*/
   
-  .textoinicio:hover::first-line{
+  .firstline:hover::first-line{
     font-size: 30px;
   }
   
-  .textoinicio:hover::after{
+  .autor:hover::after{
     content: '★'
   }
   
-  .textoinicio:hover::before{
+  .autor:hover::before{
     content: '★'
   }
 
