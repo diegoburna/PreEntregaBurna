@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* SCSS GENERAL */ /* CARACTERISTICAS GENERALES */
 * {
   margin: 0;
@@ -98,6 +99,18 @@ header nav div div div a:hover {
 }
 /* FIN DE BIENVENIDA*/
 /*INICIO*/
+.textoinicio:hover::first-line {
+  font-size: 30px;
+}
+
+.textoinicio:hover::after {
+  content: "★";
+}
+
+.textoinicio:hover::before {
+  content: "★";
+}
+
 .primertexto {
   background-color: rgba(255, 255, 255, 0.85);
   text-align: center;
@@ -108,7 +121,7 @@ header nav div div div a:hover {
   border-radius: 10px;
 }
 
-h3 {
+h2 {
   font-family: "Arastin";
   color: white;
 }
@@ -139,7 +152,7 @@ h3 {
   margin: 20px;
 }
 
-h3 {
+h2 {
   font-family: "Arastin";
   color: white;
 }
@@ -183,7 +196,7 @@ form {
   margin-bottom: 20px;
 }
 
-h2 {
+h1 {
   color: white;
   font-family: "Arastin";
   text-align: center;
